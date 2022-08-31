@@ -1,38 +1,10 @@
-### libraries to get command line arguments
+### library to get command line arguments
 import sys
+
+### library to get string functions
 import string
 
-class Tree:
-
-    # create a binary tree
-    def __init__(self, node, left, right):
-        self._node = node
-        self._left = left
-        self._right = right
-
-    # return if tree is a leaf (no children branches)
-    def is_leaf(self):
-        return self._left == None and self._right == None
-
-    # postfix print of binary tree
-    def __str__(self):
-        if(self.is_leaf()):
-            return '('+str(self._node)+')'
-            #return '()' + str(self._node) + '()'
-        return self._left.__str__() + self._right.__str__() + str(self._node) 
-
-    # getter for left branch
-    def get_left(self):
-        return self._left
-    
-    # getter for right branch
-    def get_right(self):
-        return self._right
-    
-    # getter for node
-    def get_node(self):
-        return self._node
-    
+from mylib.tree import Tree
 
 # create a tree with no children nodes
 def make_leaf(node):
@@ -78,7 +50,7 @@ def lst2tree(lst):
                 t1 = t_stack.pop()
                 t = Tree(n, t1, t2)
                 t_stack.append(t)
-                # debugging print
+                # debugging prints
                 # print("t_stack: ") 
                 # print_t_stack(t_stack)
             # Remove '(' from stack
