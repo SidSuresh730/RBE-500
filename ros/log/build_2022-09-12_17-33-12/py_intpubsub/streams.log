@@ -1,0 +1,43 @@
+[0.862s] Invoking command in '/home/sid/RBE500/ros/src/py_intpubsub': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_intpubsub build --build-base /home/sid/RBE500/ros/build/py_intpubsub/build install --prefix /home/sid/RBE500/ros/install/py_intpubsub --record /home/sid/RBE500/ros/build/py_intpubsub/install.log --single-version-externally-managed
+[1.091s] running egg_info
+[1.091s] creating ../../build/py_intpubsub/py_intpubsub.egg-info
+[1.091s] writing ../../build/py_intpubsub/py_intpubsub.egg-info/PKG-INFO
+[1.092s] writing dependency_links to ../../build/py_intpubsub/py_intpubsub.egg-info/dependency_links.txt
+[1.092s] writing entry points to ../../build/py_intpubsub/py_intpubsub.egg-info/entry_points.txt
+[1.092s] writing requirements to ../../build/py_intpubsub/py_intpubsub.egg-info/requires.txt
+[1.092s] writing top-level names to ../../build/py_intpubsub/py_intpubsub.egg-info/top_level.txt
+[1.092s] writing manifest file '../../build/py_intpubsub/py_intpubsub.egg-info/SOURCES.txt'
+[1.094s] reading manifest file '../../build/py_intpubsub/py_intpubsub.egg-info/SOURCES.txt'
+[1.095s] writing manifest file '../../build/py_intpubsub/py_intpubsub.egg-info/SOURCES.txt'
+[1.096s] running build
+[1.096s] running build_py
+[1.096s] creating /home/sid/RBE500/ros/build/py_intpubsub/build
+[1.096s] creating /home/sid/RBE500/ros/build/py_intpubsub/build/lib
+[1.097s] creating /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub
+[1.097s] copying py_intpubsub/int_publisher.py -> /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub
+[1.097s] copying py_intpubsub/__init__.py -> /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub
+[1.097s] copying py_intpubsub/int_subscriber.py -> /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub
+[1.097s] running install
+[1.097s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.097s]   warnings.warn(
+[1.098s] running install_lib
+[1.098s] creating /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub
+[1.098s] copying /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub/int_publisher.py -> /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub
+[1.098s] copying /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub/__init__.py -> /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub
+[1.098s] copying /home/sid/RBE500/ros/build/py_intpubsub/build/lib/py_intpubsub/int_subscriber.py -> /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub
+[1.100s] byte-compiling /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub/int_publisher.py to int_publisher.cpython-310.pyc
+[1.100s] byte-compiling /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub/__init__.py to __init__.cpython-310.pyc
+[1.100s] byte-compiling /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub/int_subscriber.py to int_subscriber.cpython-310.pyc
+[1.101s] running install_data
+[1.102s] creating /home/sid/RBE500/ros/install/py_intpubsub/share/ament_index
+[1.102s] creating /home/sid/RBE500/ros/install/py_intpubsub/share/ament_index/resource_index
+[1.102s] creating /home/sid/RBE500/ros/install/py_intpubsub/share/ament_index/resource_index/packages
+[1.102s] copying resource/py_intpubsub -> /home/sid/RBE500/ros/install/py_intpubsub/share/ament_index/resource_index/packages
+[1.103s] copying package.xml -> /home/sid/RBE500/ros/install/py_intpubsub/share/py_intpubsub
+[1.103s] running install_egg_info
+[1.104s] Copying ../../build/py_intpubsub/py_intpubsub.egg-info to /home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages/py_intpubsub-0.0.0-py3.10.egg-info
+[1.105s] running install_scripts
+[1.126s] Installing listener script to /home/sid/RBE500/ros/install/py_intpubsub/lib/py_intpubsub
+[1.126s] Installing talker script to /home/sid/RBE500/ros/install/py_intpubsub/lib/py_intpubsub
+[1.126s] writing list of installed files to '/home/sid/RBE500/ros/build/py_intpubsub/install.log'
+[1.164s] Invoked command in '/home/sid/RBE500/ros/src/py_intpubsub' returned '0': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_intpubsub build --build-base /home/sid/RBE500/ros/build/py_intpubsub/build install --prefix /home/sid/RBE500/ros/install/py_intpubsub --record /home/sid/RBE500/ros/build/py_intpubsub/install.log --single-version-externally-managed

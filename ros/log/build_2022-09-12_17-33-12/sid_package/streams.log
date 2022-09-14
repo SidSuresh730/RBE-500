@@ -1,0 +1,35 @@
+[0.850s] Invoking command in '/home/sid/RBE500/ros/src/sid_package': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../../build/sid_package build --build-base /home/sid/RBE500/ros/build/sid_package/build install --prefix /home/sid/RBE500/ros/install/sid_package --record /home/sid/RBE500/ros/build/sid_package/install.log --single-version-externally-managed
+[1.085s] running egg_info
+[1.086s] creating ../../build/sid_package/sid_package.egg-info
+[1.086s] writing ../../build/sid_package/sid_package.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../build/sid_package/sid_package.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../build/sid_package/sid_package.egg-info/entry_points.txt
+[1.087s] writing requirements to ../../build/sid_package/sid_package.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/sid_package/sid_package.egg-info/top_level.txt
+[1.088s] writing manifest file '../../build/sid_package/sid_package.egg-info/SOURCES.txt'
+[1.089s] reading manifest file '../../build/sid_package/sid_package.egg-info/SOURCES.txt'
+[1.091s] writing manifest file '../../build/sid_package/sid_package.egg-info/SOURCES.txt'
+[1.091s] running build
+[1.091s] running build_py
+[1.092s] creating /home/sid/RBE500/ros/build/sid_package/build
+[1.092s] creating /home/sid/RBE500/ros/build/sid_package/build/lib
+[1.092s] creating /home/sid/RBE500/ros/build/sid_package/build/lib/sid_package
+[1.092s] copying sid_package/__init__.py -> /home/sid/RBE500/ros/build/sid_package/build/lib/sid_package
+[1.092s] running install
+[1.093s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.093s]   warnings.warn(
+[1.093s] running install_lib
+[1.094s] creating /home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages/sid_package
+[1.094s] copying /home/sid/RBE500/ros/build/sid_package/build/lib/sid_package/__init__.py -> /home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages/sid_package
+[1.094s] byte-compiling /home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages/sid_package/__init__.py to __init__.cpython-310.pyc
+[1.094s] running install_data
+[1.095s] creating /home/sid/RBE500/ros/install/sid_package/share/ament_index
+[1.095s] creating /home/sid/RBE500/ros/install/sid_package/share/ament_index/resource_index
+[1.095s] creating /home/sid/RBE500/ros/install/sid_package/share/ament_index/resource_index/packages
+[1.095s] copying resource/sid_package -> /home/sid/RBE500/ros/install/sid_package/share/ament_index/resource_index/packages
+[1.095s] copying package.xml -> /home/sid/RBE500/ros/install/sid_package/share/sid_package
+[1.095s] running install_egg_info
+[1.097s] Copying ../../build/sid_package/sid_package.egg-info to /home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages/sid_package-0.0.0-py3.10.egg-info
+[1.098s] running install_scripts
+[1.120s] writing list of installed files to '/home/sid/RBE500/ros/build/sid_package/install.log'
+[1.176s] Invoked command in '/home/sid/RBE500/ros/src/sid_package' returned '0': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../../build/sid_package build --build-base /home/sid/RBE500/ros/build/sid_package/build install --prefix /home/sid/RBE500/ros/install/sid_package --record /home/sid/RBE500/ros/build/sid_package/install.log --single-version-externally-managed

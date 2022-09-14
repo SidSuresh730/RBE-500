@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000126] (py_intpubsub) JobQueued: {'identifier': 'py_intpubsub', 'dependencies': OrderedDict([('py_intpubsub', '/home/sid/RBE500/ros/install/py_intpubsub')])}
+[0.001110] (sid_package) JobQueued: {'identifier': 'sid_package', 'dependencies': OrderedDict([('sid_package', '/home/sid/RBE500/ros/install/sid_package')])}
+[0.001178] (py_intpubsub) JobStarted: {'identifier': 'py_intpubsub'}
+[0.009380] (sid_package) JobStarted: {'identifier': 'sid_package'}
+[0.099807] (-) TimerEvent: {}
+[0.200080] (-) TimerEvent: {}
+[0.259629] (py_intpubsub) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/sid/RBE500/ros/src/py_intpubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sid', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sid', 'OLDPWD': '/home/sid/RBE500/ros/src/py_intpubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(rbe-500) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '1820', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sid/python-environments/rbe-500/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-7-2017-q4-major/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sid-ThinkPad-X1-Linux:@/tmp/.ICE-unix/1789,unix/sid-ThinkPad-X1-Linux:/tmp/.ICE-unix/1789', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/32b13768_1c52_4ddb_bbce_954e6c619f7e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(rbe-500)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OALPR1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1260', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/sid/RBE500/ros/install/py_intpubsub:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/sid/python-environments/rbe-500', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sid/RBE500/ros/build/py_intpubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sid/RBE500/ros/install/py_intpubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/sid/RBE500/ros/build/py_intpubsub/pytest.xml --junit-prefix=py_intpubsub -o cache_dir=/home/sid/RBE500/ros/build/py_intpubsub/.pytest_cache'}, 'shell': False}
+[0.300181] (-) TimerEvent: {}
+[0.400479] (-) TimerEvent: {}
+[0.500775] (-) TimerEvent: {}
+[0.519739] (sid_package) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/sid/RBE500/ros/src/sid_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sid', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sid', 'OLDPWD': '/home/sid/RBE500/ros/src/py_intpubsub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(rbe-500) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '1820', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sid', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sid/python-environments/rbe-500/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-7-2017-q4-major/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sid-ThinkPad-X1-Linux:@/tmp/.ICE-unix/1789,unix/sid-ThinkPad-X1-Linux:/tmp/.ICE-unix/1789', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/32b13768_1c52_4ddb_bbce_954e6c619f7e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(rbe-500)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OALPR1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1260', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/sid/RBE500/ros/install/sid_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/sid/python-environments/rbe-500', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sid/RBE500/ros/build/sid_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sid/RBE500/ros/install/sid_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/sid/RBE500/ros/build/sid_package/pytest.xml --junit-prefix=sid_package -o cache_dir=/home/sid/RBE500/ros/build/sid_package/.pytest_cache'}, 'shell': False}
+[0.600870] (-) TimerEvent: {}
+[0.602837] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.603098] (py_intpubsub) StdoutLine: {'line': b'platform linux -- Python 3.10.4, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.607554] (py_intpubsub) StdoutLine: {'line': b'cachedir: /home/sid/RBE500/ros/build/py_intpubsub/.pytest_cache\n'}
+[0.607787] (py_intpubsub) StdoutLine: {'line': b'rootdir: /home/sid/RBE500/ros/src/py_intpubsub\n'}
+[0.607906] (py_intpubsub) StdoutLine: {'line': b'plugins: ament-pep257-0.12.4, launch-testing-ros-0.19.3, launch-testing-1.0.2, ament-copyright-0.12.4, ament-xmllint-0.12.4, ament-lint-0.12.4, ament-flake8-0.12.4, cov-3.0.0, colcon-core-0.10.0\n'}
+[0.698468] (py_intpubsub) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.698662] (py_intpubsub) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.698852] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.700933] (-) TimerEvent: {}
+[0.706875] (py_intpubsub) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.801049] (-) TimerEvent: {}
+[0.823899] (sid_package) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.824149] (sid_package) StdoutLine: {'line': b'platform linux -- Python 3.10.4, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.829606] (sid_package) StdoutLine: {'line': b'cachedir: /home/sid/RBE500/ros/build/sid_package/.pytest_cache\n'}
+[0.829827] (sid_package) StdoutLine: {'line': b'rootdir: /home/sid/RBE500/ros/src/sid_package\n'}
+[0.829957] (sid_package) StdoutLine: {'line': b'plugins: ament-pep257-0.12.4, launch-testing-ros-0.19.3, launch-testing-1.0.2, ament-copyright-0.12.4, ament-xmllint-0.12.4, ament-lint-0.12.4, ament-flake8-0.12.4, cov-3.0.0, colcon-core-0.10.0\n'}
+[0.838348] (py_intpubsub) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.860017] (py_intpubsub) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.860269] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.860392] (py_intpubsub) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.860500] (py_intpubsub) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.860623] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.901108] (py_intpubsub) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.901945] (-) TimerEvent: {}
+[0.902171] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 6 code style errors / warnings:\x1b[0m\n'}
+[0.902312] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:23:1: W191 indentation contains tabs\x1b[0m\n'}
+[0.902440] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:23:1: E101 indentation contains mixed spaces and tabs\x1b[0m\n'}
+[0.902548] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:24:1: W191 indentation contains tabs\x1b[0m\n'}
+[0.902654] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:24:1: E101 indentation contains mixed spaces and tabs\x1b[0m\n'}
+[0.902755] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./py_intpubsub/int_subscriber.py:35:14: E228 missing whitespace around modulo operator\x1b[0m\n'}
+[0.902858] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./py_intpubsub/int_subscriber.py:35:16: E225 missing whitespace around operator\x1b[0m\n'}
+[0.902962] (py_intpubsub) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.903058] (py_intpubsub) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.903164] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.903261] (py_intpubsub) StdoutLine: {'line': b'./setup.py:23:1: W191 indentation contains tabs\n'}
+[0.903347] (py_intpubsub) StdoutLine: {'line': b"\t\t'talker = py_intpubsub.int_publisher:main',\n"}
+[0.903431] (py_intpubsub) StdoutLine: {'line': b'^\n'}
+[0.903515] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.903597] (py_intpubsub) StdoutLine: {'line': b'./setup.py:23:1: E101 indentation contains mixed spaces and tabs\n'}
+[0.903680] (py_intpubsub) StdoutLine: {'line': b"\t\t'talker = py_intpubsub.int_publisher:main',\n"}
+[0.903762] (py_intpubsub) StdoutLine: {'line': b'^\n'}
+[0.903843] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.903925] (py_intpubsub) StdoutLine: {'line': b'./setup.py:24:1: W191 indentation contains tabs\n'}
+[0.904020] (py_intpubsub) StdoutLine: {'line': b"\t\t'listener = py_intpubsub.int_subscriber:main',\n"}
+[0.904104] (py_intpubsub) StdoutLine: {'line': b'^\n'}
+[0.904187] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.904271] (py_intpubsub) StdoutLine: {'line': b'./setup.py:24:1: E101 indentation contains mixed spaces and tabs\n'}
+[0.904355] (py_intpubsub) StdoutLine: {'line': b"\t\t'listener = py_intpubsub.int_subscriber:main',\n"}
+[0.904439] (py_intpubsub) StdoutLine: {'line': b'^\n'}
+[0.904521] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.904604] (py_intpubsub) StdoutLine: {'line': b'./py_intpubsub/int_subscriber.py:35:14: E228 missing whitespace around modulo operator\n'}
+[0.904689] (py_intpubsub) StdoutLine: {'line': b'        if (i%2==0):\n'}
+[0.904773] (py_intpubsub) StdoutLine: {'line': b'             ^\n'}
+[0.904857] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.904940] (py_intpubsub) StdoutLine: {'line': b'./py_intpubsub/int_subscriber.py:35:16: E225 missing whitespace around operator\n'}
+[0.905023] (py_intpubsub) StdoutLine: {'line': b'        if (i%2==0):\n'}
+[0.905130] (py_intpubsub) StdoutLine: {'line': b'               ^\n'}
+[0.905221] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.905304] (py_intpubsub) StdoutLine: {'line': b'2     E101 indentation contains mixed spaces and tabs\n'}
+[0.905388] (py_intpubsub) StdoutLine: {'line': b'1     E225 missing whitespace around operator\n'}
+[0.905472] (py_intpubsub) StdoutLine: {'line': b'1     E228 missing whitespace around modulo operator\n'}
+[0.905555] (py_intpubsub) StdoutLine: {'line': b'2     W191 indentation contains tabs\n'}
+[0.905638] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.905721] (py_intpubsub) StdoutLine: {'line': b'7 files checked\n'}
+[0.905805] (py_intpubsub) StdoutLine: {'line': b'6 errors\n'}
+[0.905901] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.906000] (py_intpubsub) StdoutLine: {'line': b"'E'-type errors: 4\n"}
+[0.906088] (py_intpubsub) StdoutLine: {'line': b"'W'-type errors: 2\n"}
+[0.906176] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.906263] (py_intpubsub) StdoutLine: {'line': b'Checked files:\n'}
+[0.906352] (py_intpubsub) StdoutLine: {'line': b'\n'}
+[0.906442] (py_intpubsub) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.906530] (py_intpubsub) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.906618] (py_intpubsub) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.906706] (py_intpubsub) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.906804] (py_intpubsub) StdoutLine: {'line': b'* ./py_intpubsub/int_publisher.py\n'}
+[0.906896] (py_intpubsub) StdoutLine: {'line': b'* ./py_intpubsub/__init__.py\n'}
+[0.906998] (py_intpubsub) StdoutLine: {'line': b'* ./py_intpubsub/int_subscriber.py\n'}
+[0.907085] (py_intpubsub) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.907175] (py_intpubsub) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.907266] (py_intpubsub) StdoutLine: {'line': b'---- generated xml file: /home/sid/RBE500/ros/build/py_intpubsub/pytest.xml ----\n'}
+[0.907355] (py_intpubsub) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.907464] (py_intpubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.907553] (py_intpubsub) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.907640] (py_intpubsub) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.907727] (py_intpubsub) StderrLine: {'line': b'\n'}
+[0.907813] (py_intpubsub) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.907902] (sid_package) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.907998] (sid_package) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.908089] (py_intpubsub) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.908196] (py_intpubsub) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 6 code style ...\n'}
+[0.908293] (py_intpubsub) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.30s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.908463] (sid_package) StdoutLine: {'line': b'\n'}
+[0.915297] (sid_package) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[1.001697] (sid_package) StdoutLine: {'line': b'test/test_flake8.py \x1b[32m.\x1b[0m\x1b[33m                                                    [ 66%]\x1b[0m\n'}
+[1.002018] (-) TimerEvent: {}
+[1.002820] (py_intpubsub) CommandEnded: {'returncode': 1}
+[1.003281] (py_intpubsub) TestFailure: {'identifier': 'py_intpubsub'}
+[1.003317] (py_intpubsub) JobEnded: {'identifier': 'py_intpubsub', 'rc': 0}
+[1.020724] (sid_package) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[33m                                                    [100%]\x1b[0m\n'}
+[1.020931] (sid_package) StderrLine: {'line': b'\n'}
+[1.021162] (sid_package) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[1.021282] (sid_package) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.021342] (sid_package) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[1.021397] (sid_package) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[1.021451] (sid_package) StderrLine: {'line': b'\n'}
+[1.021505] (sid_package) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[1.021563] (sid_package) StdoutLine: {'line': b'---- generated xml file: /home/sid/RBE500/ros/build/sid_package/pytest.xml -----\n'}
+[1.021619] (sid_package) StdoutLine: {'line': b'\x1b[33m=================== \x1b[32m2 passed\x1b[0m, \x1b[33m\x1b[1m1 skipped\x1b[0m, \x1b[33m\x1b[1m2 warnings\x1b[0m\x1b[33m in 0.20s\x1b[0m\x1b[33m ===================\x1b[0m\n'}
+[1.102167] (-) TimerEvent: {}
+[1.106574] (sid_package) CommandEnded: {'returncode': 0}
+[1.106982] (sid_package) JobEnded: {'identifier': 'sid_package', 'rc': 0}
+[1.107961] (-) EventReactorShutdown: {}
