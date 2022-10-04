@@ -1,0 +1,39 @@
+[0.597s] Invoking command in '/home/sid/RBE500/ros/src/euler_to_quat': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../../build/euler_to_quat build --build-base /home/sid/RBE500/ros/build/euler_to_quat/build install --prefix /home/sid/RBE500/ros/install/euler_to_quat --record /home/sid/RBE500/ros/build/euler_to_quat/install.log --single-version-externally-managed
+[0.818s] running egg_info
+[0.819s] creating ../../build/euler_to_quat/euler_to_quat.egg-info
+[0.819s] writing ../../build/euler_to_quat/euler_to_quat.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/euler_to_quat/euler_to_quat.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/euler_to_quat/euler_to_quat.egg-info/entry_points.txt
+[0.819s] writing requirements to ../../build/euler_to_quat/euler_to_quat.egg-info/requires.txt
+[0.820s] writing top-level names to ../../build/euler_to_quat/euler_to_quat.egg-info/top_level.txt
+[0.820s] writing manifest file '../../build/euler_to_quat/euler_to_quat.egg-info/SOURCES.txt'
+[0.821s] reading manifest file '../../build/euler_to_quat/euler_to_quat.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../../build/euler_to_quat/euler_to_quat.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.822s] running build_py
+[0.822s] creating /home/sid/RBE500/ros/build/euler_to_quat/build
+[0.822s] creating /home/sid/RBE500/ros/build/euler_to_quat/build/lib
+[0.822s] creating /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat
+[0.822s] copying euler_to_quat/__init__.py -> /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat
+[0.822s] copying euler_to_quat/zyx_subscriber.py -> /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat
+[0.823s] running install
+[0.828s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.828s]   warnings.warn(
+[0.828s] running install_lib
+[0.829s] creating /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat
+[0.829s] copying /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat/__init__.py -> /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat
+[0.830s] copying /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat/zyx_subscriber.py -> /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat
+[0.830s] byte-compiling /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat/__init__.py to __init__.cpython-310.pyc
+[0.830s] byte-compiling /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat/zyx_subscriber.py to zyx_subscriber.cpython-310.pyc
+[0.831s] running install_data
+[0.832s] creating /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index
+[0.832s] creating /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index/resource_index
+[0.832s] creating /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index/resource_index/packages
+[0.833s] copying resource/euler_to_quat -> /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index/resource_index/packages
+[0.833s] copying package.xml -> /home/sid/RBE500/ros/install/euler_to_quat/share/euler_to_quat
+[0.833s] running install_egg_info
+[0.834s] Copying ../../build/euler_to_quat/euler_to_quat.egg-info to /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat-0.0.0-py3.10.egg-info
+[0.835s] running install_scripts
+[0.855s] Installing zyx-sub script to /home/sid/RBE500/ros/install/euler_to_quat/lib/euler_to_quat
+[0.855s] writing list of installed files to '/home/sid/RBE500/ros/build/euler_to_quat/install.log'
+[0.881s] Invoked command in '/home/sid/RBE500/ros/src/euler_to_quat' returned '0': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../../build/euler_to_quat build --build-base /home/sid/RBE500/ros/build/euler_to_quat/build install --prefix /home/sid/RBE500/ros/install/euler_to_quat --record /home/sid/RBE500/ros/build/euler_to_quat/install.log --single-version-externally-managed

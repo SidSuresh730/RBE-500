@@ -1,0 +1,39 @@
+[0.575s] Invoking command in '/home/sid/RBE500/ros/src/fw_kin': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base build/fw_kin build --build-base /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build install --prefix /home/sid/RBE500/ros/src/fw_kin/install/fw_kin --record /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/install.log --single-version-externally-managed
+[0.785s] running egg_info
+[0.786s] creating build/fw_kin/fw_kin.egg-info
+[0.786s] writing build/fw_kin/fw_kin.egg-info/PKG-INFO
+[0.786s] writing dependency_links to build/fw_kin/fw_kin.egg-info/dependency_links.txt
+[0.786s] writing entry points to build/fw_kin/fw_kin.egg-info/entry_points.txt
+[0.786s] writing requirements to build/fw_kin/fw_kin.egg-info/requires.txt
+[0.787s] writing top-level names to build/fw_kin/fw_kin.egg-info/top_level.txt
+[0.787s] writing manifest file 'build/fw_kin/fw_kin.egg-info/SOURCES.txt'
+[0.788s] reading manifest file 'build/fw_kin/fw_kin.egg-info/SOURCES.txt'
+[0.789s] writing manifest file 'build/fw_kin/fw_kin.egg-info/SOURCES.txt'
+[0.789s] running build
+[0.790s] running build_py
+[0.790s] creating /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build
+[0.790s] creating /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build/lib
+[0.790s] creating /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build/lib/fw_kin
+[0.790s] copying fw_kin/3_5_robot.py -> /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build/lib/fw_kin
+[0.790s] copying fw_kin/__init__.py -> /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build/lib/fw_kin
+[0.790s] running install
+[0.795s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.795s]   warnings.warn(
+[0.796s] running install_lib
+[0.796s] creating /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages/fw_kin
+[0.797s] copying /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build/lib/fw_kin/3_5_robot.py -> /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages/fw_kin
+[0.797s] copying /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build/lib/fw_kin/__init__.py -> /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages/fw_kin
+[0.797s] byte-compiling /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages/fw_kin/3_5_robot.py to 3_5_robot.cpython-310.pyc
+[0.798s] byte-compiling /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages/fw_kin/__init__.py to __init__.cpython-310.pyc
+[0.798s] running install_data
+[0.799s] creating /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/share/ament_index
+[0.799s] creating /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/share/ament_index/resource_index
+[0.799s] creating /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/share/ament_index/resource_index/packages
+[0.799s] copying resource/fw_kin -> /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/share/ament_index/resource_index/packages
+[0.799s] copying package.xml -> /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/share/fw_kin
+[0.799s] running install_egg_info
+[0.800s] Copying build/fw_kin/fw_kin.egg-info to /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages/fw_kin-0.0.0-py3.10.egg-info
+[0.801s] running install_scripts
+[0.820s] Installing man_3_5 script to /home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/fw_kin
+[0.820s] writing list of installed files to '/home/sid/RBE500/ros/src/fw_kin/build/fw_kin/install.log'
+[0.850s] Invoked command in '/home/sid/RBE500/ros/src/fw_kin' returned '0': PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/ros/src/fw_kin/install/fw_kin/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base build/fw_kin build --build-base /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/build install --prefix /home/sid/RBE500/ros/src/fw_kin/install/fw_kin --record /home/sid/RBE500/ros/src/fw_kin/build/fw_kin/install.log --single-version-externally-managed

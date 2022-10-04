@@ -1,0 +1,3 @@
+[console_scripts]
+man_3_5 = fw_kin.3_5_manipulator:main
+

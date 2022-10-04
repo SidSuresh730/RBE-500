@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/euler_to_quat/euler_to_quat.egg-info
+writing ../../build/euler_to_quat/euler_to_quat.egg-info/PKG-INFO
+writing dependency_links to ../../build/euler_to_quat/euler_to_quat.egg-info/dependency_links.txt
+writing entry points to ../../build/euler_to_quat/euler_to_quat.egg-info/entry_points.txt
+writing requirements to ../../build/euler_to_quat/euler_to_quat.egg-info/requires.txt
+writing top-level names to ../../build/euler_to_quat/euler_to_quat.egg-info/top_level.txt
+writing manifest file '../../build/euler_to_quat/euler_to_quat.egg-info/SOURCES.txt'
+reading manifest file '../../build/euler_to_quat/euler_to_quat.egg-info/SOURCES.txt'
+writing manifest file '../../build/euler_to_quat/euler_to_quat.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sid/RBE500/ros/build/euler_to_quat/build
+creating /home/sid/RBE500/ros/build/euler_to_quat/build/lib
+creating /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat
+copying euler_to_quat/__init__.py -> /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat
+copying euler_to_quat/zyx_subscriber.py -> /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat
+copying /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat/__init__.py -> /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat
+copying /home/sid/RBE500/ros/build/euler_to_quat/build/lib/euler_to_quat/zyx_subscriber.py -> /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat
+byte-compiling /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat/zyx_subscriber.py to zyx_subscriber.cpython-310.pyc
+running install_data
+creating /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index
+creating /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index/resource_index
+creating /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index/resource_index/packages
+copying resource/euler_to_quat -> /home/sid/RBE500/ros/install/euler_to_quat/share/ament_index/resource_index/packages
+copying package.xml -> /home/sid/RBE500/ros/install/euler_to_quat/share/euler_to_quat
+running install_egg_info
+Copying ../../build/euler_to_quat/euler_to_quat.egg-info to /home/sid/RBE500/ros/install/euler_to_quat/lib/python3.10/site-packages/euler_to_quat-0.0.0-py3.10.egg-info
+running install_scripts
+Installing zyx-sub script to /home/sid/RBE500/ros/install/euler_to_quat/lib/euler_to_quat
+writing list of installed files to '/home/sid/RBE500/ros/build/euler_to_quat/install.log'

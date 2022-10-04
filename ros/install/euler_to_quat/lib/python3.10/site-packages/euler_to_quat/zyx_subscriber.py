@@ -39,7 +39,6 @@ class ZYXSubscriber(Node):
         #print message to console
         self.get_logger().info('Created quaternion: [x: %f, y: %f, z: %f, w: %f] from ZYX-Euler angles: phi: %f, theta: %f, psi: %f' % (q.x, q.y, q.z, q.w, phi, theta, psi)) 
 
-    #convert ZYX-Euler angles to Quaternion representation
     def _to_quat(self, psi, theta, phi): #ZYX convention (Z-psi, Y'-theta, X''-phi)
         q = Quaternion()
         c_psi = cos(radians(psi*0.5))
@@ -63,9 +62,9 @@ def main(args=None):
 
     #initialize subscriber program
     rclpy.init(args=args)
-    #create instance of ZYXSubscriber
+
     euler_subscriber = ZYXSubscriber()
-    #execute work until the context is shut down (i.e. Ctrl+C, etc.)
+
     rclpy.spin(euler_subscriber)
 
     # Destroy the node explicitly
@@ -77,7 +76,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
-
-### Tests
-# ros2 topic pub --once /euler std_msgs/msg/Float32MultiArray "{data: [30, 30, 30]}"

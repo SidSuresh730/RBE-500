@@ -1,0 +1,3 @@
+[console_scripts]
+zyx-sub = euler_to_quat.zyx_subscriber:main
+
