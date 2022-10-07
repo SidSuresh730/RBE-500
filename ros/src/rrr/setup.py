@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'fw_kin'
+package_name = 'rrr'
 
 setup(
     name=package_name,
@@ -15,12 +15,12 @@ setup(
     zip_safe=True,
     maintainer='Siddarth Suresh',
     maintainer_email='ssuresh@wpi.edu',
-    description='Perform forward kinematics of manipulator from problem 3-5',
+    description='Perform forward and inverse kinematics of manipulator from problem 3-5',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-		'man_3_5 = fw_kin.3_5_robot:main',
+		'man_3_5 = rrr.3_5_robot:main',
         ],
     },
 )

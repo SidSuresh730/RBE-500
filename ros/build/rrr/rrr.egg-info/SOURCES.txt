@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rrr/rrr.egg-info/PKG-INFO
+../../build/rrr/rrr.egg-info/SOURCES.txt
+../../build/rrr/rrr.egg-info/dependency_links.txt
+../../build/rrr/rrr.egg-info/entry_points.txt
+../../build/rrr/rrr.egg-info/requires.txt
+../../build/rrr/rrr.egg-info/top_level.txt
+../../build/rrr/rrr.egg-info/zip-safe
+resource/rrr
+rrr/3_5_robot.py
+rrr/__init__.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -16,8 +16,8 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import Float32MultiArray
-from math import sin, cos, radians
-import numpy as np
+from geometry_msgs.msg import Pose
+from math import sin, cos, degrees, radians, atan2, sqrt
 
 class Subscriber3_5(Node):
 
@@ -28,10 +28,14 @@ class Subscriber3_5(Node):
         self._l1 = l1
         self._l2 = l2
         self._l3 = l3
-        self.subscription = self.create_subscription(Float32MultiArray,'man_3_5', self.listener_callback, 10)
-        self.subscription  # prevent unused variable warning
+        #subscriber to joint variables for fw kin
+        self.subscription_fwk = self.create_subscription(Float32MultiArray,'rrr_fwk', self.fw_callback, 10)
+        #subscriber to end effector position for inv_kin
+        self.subscription_ivk = self.create_subscription(Pose, 'rrr_ivk', self.inv_callback, 10)
+        self.subscription_fwk  # prevent unused variable warning
+        self.subscription_ivk # prevent unused variable warning 
 
-    def listener_callback(self, msg):
+    def fw_callback(self, msg):
         #hold value of msg (type is Float32MultiArray)
         i = msg.data
         #unpack the data ASSUME the joint variables are given in order (q1, q2, q3)
@@ -52,44 +56,20 @@ class Subscriber3_5(Node):
                                '\n%.2f\n%.2f'% (r[0][0], r[0][1], r[0][2], 
                                             r[1][0], r[1][1], r[1][2],
                                             r[2][0], r[2][1], r[2][2],
-                                            o_T[0], o_T[1], o_T[2])) 
+                                            o_T[0], o_T[1], o_T[2]))
+    
+    def inv_callback(self, msg):
+        #unpack pose position data
+        x = msg.position.x
+        y = msg.position.y
+        z = msg.position.z
+        #solve inverse kinematics problem
+        (q1, q2, q3) = self._inv_kin(x, y, z)
+        #print to console
+        self.get_logger().info('Joint values are: %.2f, %.2f, %.2f' % (q1, q2, q3))
 
-    #forward kinematics two ways
+    #forward kinematics
     def _fw_kin(self, q1, q2, q3): 
-
-        # # Comment out the method not in use, do not use both
-        # # ### METHOD 1: Matrix multiplication (uses NumPy)
-
-        # #create 2-D numpy arrays (4x4) for every homogeneous transformation matrix
-        # #A_i for i=1,2,3 based on P3-5 from HW2
-        # #A1
-        # a1 = np.array([[cos(radians(q1)), 0, -sin(radians(q1)), 0],
-        #               [sin(radians(q1)), 0, cos(radians(q1)), 0 ],
-        #               [0, -1, 0, self._l1],
-        #               [0, 0, 0, 1]] )
-        # #A2
-        # a2 = np.array([[cos(radians(q2)), -sin(radians(q2)), 0, self._l2*cos(radians(q2))],
-        #               [sin(radians(q2)), cos(radians(q2)), 0, self._l2*sin(radians(q2))],
-        #               [0, 0, 1, 0],
-        #               [0, 0, 0, 1]] )
-        # #A3
-        # a3 = np.array([[cos(radians(q3)), -sin(radians(q3)), 0, self._l3*cos(radians(q3))],
-        #               [sin(radians(q3)), cos(radians(q3)), 0, self._l3*sin(radians(q3))],
-        #               [0, 0, 1, 0],
-        #               [0, 0, 0, 1]] )
-        # #H2 = A1*A2 the first homogeneous matrix from frame 0 to 2
-        # h2 = np.matmul(np.asmatrix(a1), np.asmatrix(a2))
-        # #H3 = H2*A3 the total homogeneous matrix from frame 0 to 3
-        # h3 = np.matmul(h2, np.asmatrix(a3))
-        # # get the R matrix from the first 3x3 cells in H3
-        # r = h3[:3,:3]
-        # # get the o vector from the last column of H3 (except the last cell)
-        # o = h3[:3,3:]
-        # # return the transpose of o, just for similarity to method 2
-        # o_T = o.transpose()
-
-        ## METHOD 2: Direct matrix creation based on hand-done calculation (See ROS in HW3)
-        #Does not depend on NumPy
 
         # Calculate the cosines and sines of the joint variables
         c1 = cos(radians(q1))
@@ -99,9 +79,7 @@ class Subscriber3_5(Node):
         s2 = sin(radians(q2))
         s3 = sin(radians(q3))
         # Assign link lengths to local variables from instance variables
-        l1 = self._l1
-        l2 = self._l2
-        l3 = self._l3
+        l1, l2, l3 = self._l1, self._l2, self._l3
         # Direct creation of the R matrix based on hand-done calculations
         r = [[c1*c2*c3-c1*s2*s3, -c1*c2*s3-c1*s2*c3, -s1],
              [s1*c2*c3-s1*s2*s3, -s1*c2*s3-s1*s2*c3, c1],
@@ -111,6 +89,17 @@ class Subscriber3_5(Node):
         
         return (r, o_T)
 
+    #inverse kinematics
+    def _inv_kin(self, x, y, z):
+        #assign link lengths to local variables for ease of use
+        l1, l2, l3 = self._l1, self._l2, self._l3
+        #calculations in HW4 ROS section
+        q1 = degrees(atan2(y, x))
+        d = (x**2 + y**2 + z**2 + l1**2 - 2*l1*z - l2**2 - l3**2)/(2*l2*l3)
+        q3 = degrees(atan2(sqrt(1-d**2), d)) # elbow down solution
+        q2 = degrees(atan2(l1-z, sqrt(x**2+y**2))) - degrees(atan2(l3*sin(radians(q3)), l2+l3*cos(radians(q3))))
+
+        return(q1,q2,q3)
 
 
 #main method

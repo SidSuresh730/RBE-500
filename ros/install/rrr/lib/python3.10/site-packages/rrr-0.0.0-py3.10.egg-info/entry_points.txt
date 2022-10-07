@@ -1,0 +1,3 @@
+[console_scripts]
+man_3_5 = rrr.3_5_robot:main
+
