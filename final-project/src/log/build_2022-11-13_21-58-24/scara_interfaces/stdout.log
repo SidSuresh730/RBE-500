@@ -1,0 +1,225 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/sid/python-environments/rbe-500/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/sid/python-environments/rbe-500/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/sid/python-environments/rbe-500/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sid/RBE500/final-project/src/build/scara_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_scara_interfaces
+running egg_info
+creating scara_interfaces.egg-info
+writing scara_interfaces.egg-info/PKG-INFO
+writing dependency_links to scara_interfaces.egg-info/dependency_links.txt
+writing top-level names to scara_interfaces.egg-info/top_level.txt
+writing manifest file 'scara_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'scara_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'scara_interfaces.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_scara_interfaces_egg
+[  6%] Built target scara_interfaces__cpp
+[  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32mBuilding C object CMakeFiles/scara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/scara_interfaces/srv/detail/inv_kin__functions.c.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/scara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/scara_interfaces/srv/inv_kin__type_support.cpp.o[0m
+[ 25%] [32m[1mLinking C shared library libscara_interfaces__rosidl_generator_c.so[0m
+[ 25%] Built target scara_interfaces__rosidl_generator_c
+[ 29%] [32mBuilding CXX object CMakeFiles/scara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/scara_interfaces/srv/detail/inv_kin__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/scara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/scara_interfaces/srv/detail/dds_fastrtps/inv_kin__type_support.cpp.o[0m
+[ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 38%] [32m[1mLinking CXX shared library libscara_interfaces__rosidl_typesupport_cpp.so[0m
+[ 38%] Built target scara_interfaces__rosidl_typesupport_cpp
+[ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/scara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/scara_interfaces/srv/detail/inv_kin__type_support_c.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libscara_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 51%] [32m[1mLinking CXX shared library libscara_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 51%] Built target scara_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target scara_interfaces__rosidl_typesupport_introspection_cpp
+[ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 58%] [32mBuilding C object CMakeFiles/scara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/scara_interfaces/srv/detail/inv_kin__type_support.c.o[0m
+[ 61%] [32m[1mLinking CXX shared library libscara_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 64%] [32m[1mLinking C shared library libscara_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 64%] Built target scara_interfaces__rosidl_typesupport_introspection_c
+[ 64%] Built target scara_interfaces__rosidl_typesupport_fastrtps_c
+[ 67%] [32mBuilding CXX object CMakeFiles/scara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/scara_interfaces/srv/inv_kin__type_support.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libscara_interfaces__rosidl_typesupport_c.so[0m
+[ 70%] Built target scara_interfaces__rosidl_typesupport_c
+[ 70%] Built target scara_interfaces
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target scara_interfaces__py
+[ 77%] [32mBuilding C object CMakeFiles/scara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/scara_interfaces/srv/_inv_kin_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/scara_interfaces/libscara_interfaces__rosidl_generator_py.so[0m
+[ 80%] Built target scara_interfaces__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/scara_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/scara_interfaces/_scara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/scara_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/scara_interfaces/_scara_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/scara_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/scara_interfaces/_scara_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/scara_interfaces/scara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/scara_interfaces/scara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/scara_interfaces/scara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target scara_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target scara_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target scara_interfaces__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/ament_index/resource_index/rosidl_interfaces/scara_interfaces
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/inv_kin.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__functions.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__functions.c
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__type_support.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__struct.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/library_path.sh
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/library_path.dsv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__type_support.c
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/inv_kin.hpp
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__struct.hpp
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__builder.hpp
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__traits.hpp
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/dds_fastrtps
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv
+-- Up-to-date: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__type_support.cpp
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/include/scara_interfaces/scara_interfaces/srv/detail/inv_kin__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/pythonpath.sh
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/pythonpath.dsv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv/__init__.py
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv/_inv_kin.py
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv/_inv_kin_s.c
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/__init__.py
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/libscara_interfaces__rosidl_generator_py.so
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/_scara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/_scara_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/_scara_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces'...
+Compiling '/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/__init__.py'...
+Listing '/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv'...
+Compiling '/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv/__init__.py'...
+Compiling '/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/srv/_inv_kin.py'...
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages/scara_interfaces/scara_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/libscara_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/srv/InvKin.idl
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/srv/InvKin.srv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/srv/InvKin_Request.msg
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/srv/InvKin_Response.msg
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/ament_index/resource_index/package_run_dependencies/scara_interfaces
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/ament_index/resource_index/parent_prefix_path/scara_interfaces
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/path.sh
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/environment/path.dsv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/local_setup.bash
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/local_setup.sh
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/local_setup.zsh
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/local_setup.dsv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/package.dsv
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/ament_index/resource_index/packages/scara_interfaces
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/export_scara_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfacesConfig.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/cmake/scara_interfacesConfig-version.cmake
+-- Installing: /home/sid/RBE500/final-project/src/install/scara_interfaces/share/scara_interfaces/package.xml

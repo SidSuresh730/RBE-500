@@ -1,0 +1,4 @@
+[console_scripts]
+listener = scara_pubsub.scara_kinematics:main
+service = scara_pubsub.scara_kinematics:main2
+

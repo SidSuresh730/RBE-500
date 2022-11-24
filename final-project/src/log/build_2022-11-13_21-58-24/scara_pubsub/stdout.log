@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/scara_pubsub/scara_pubsub.egg-info
+writing ../build/scara_pubsub/scara_pubsub.egg-info/PKG-INFO
+writing dependency_links to ../build/scara_pubsub/scara_pubsub.egg-info/dependency_links.txt
+writing entry points to ../build/scara_pubsub/scara_pubsub.egg-info/entry_points.txt
+writing requirements to ../build/scara_pubsub/scara_pubsub.egg-info/requires.txt
+writing top-level names to ../build/scara_pubsub/scara_pubsub.egg-info/top_level.txt
+writing manifest file '../build/scara_pubsub/scara_pubsub.egg-info/SOURCES.txt'
+reading manifest file '../build/scara_pubsub/scara_pubsub.egg-info/SOURCES.txt'
+writing manifest file '../build/scara_pubsub/scara_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sid/RBE500/final-project/src/build/scara_pubsub/build
+creating /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib
+creating /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub
+copying scara_pubsub/__init__.py -> /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub
+copying scara_pubsub/scara_kinematics.py -> /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub
+running install
+running install_lib
+creating /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub
+copying /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub/__init__.py -> /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub
+copying /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub/scara_kinematics.py -> /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub
+byte-compiling /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub/scara_kinematics.py to scara_kinematics.cpython-310.pyc
+running install_data
+creating /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index
+creating /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index/resource_index
+creating /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index/resource_index/packages
+copying resource/scara_pubsub -> /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index/resource_index/packages
+copying package.xml -> /home/sid/RBE500/final-project/src/install/scara_pubsub/share/scara_pubsub
+running install_egg_info
+Copying ../build/scara_pubsub/scara_pubsub.egg-info to /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/scara_pubsub
+writing list of installed files to '/home/sid/RBE500/final-project/src/build/scara_pubsub/install.log'

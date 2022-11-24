@@ -1,0 +1,8 @@
+setup.py
+scara_interfaces/__init__.py
+scara_interfaces.egg-info/PKG-INFO
+scara_interfaces.egg-info/SOURCES.txt
+scara_interfaces.egg-info/dependency_links.txt
+scara_interfaces.egg-info/top_level.txt
+scara_interfaces/srv/__init__.py
+scara_interfaces/srv/_inv_kin.py

@@ -1,0 +1,1 @@
+/home/sid/RBE500/final-project/build/rrbot_gazebo/ament_cmake_environment_hooks/local_setup.sh

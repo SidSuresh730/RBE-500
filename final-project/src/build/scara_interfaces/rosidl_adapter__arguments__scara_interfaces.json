@@ -1,0 +1,6 @@
+{
+  "package_name": "scara_interfaces",
+  "non_idl_tuples": [
+    "/home/sid/RBE500/final-project/src/scara_interfaces:srv/InvKin.srv"
+  ]
+}

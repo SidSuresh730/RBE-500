@@ -1,0 +1,39 @@
+[0.995s] Invoking command in '/home/sid/RBE500/final-project/src/scara_pubsub': AMENT_PREFIX_PATH=/home/sid/RBE500/final-project/src/install/scara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/RBE500/final-project/src/install/scara_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sid/RBE500/final-project/src/install/scara_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages:/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../build/scara_pubsub build --build-base /home/sid/RBE500/final-project/src/build/scara_pubsub/build install --prefix /home/sid/RBE500/final-project/src/install/scara_pubsub --record /home/sid/RBE500/final-project/src/build/scara_pubsub/install.log --single-version-externally-managed
+[1.390s] running egg_info
+[1.391s] creating ../build/scara_pubsub/scara_pubsub.egg-info
+[1.391s] writing ../build/scara_pubsub/scara_pubsub.egg-info/PKG-INFO
+[1.392s] writing dependency_links to ../build/scara_pubsub/scara_pubsub.egg-info/dependency_links.txt
+[1.392s] writing entry points to ../build/scara_pubsub/scara_pubsub.egg-info/entry_points.txt
+[1.392s] writing requirements to ../build/scara_pubsub/scara_pubsub.egg-info/requires.txt
+[1.392s] writing top-level names to ../build/scara_pubsub/scara_pubsub.egg-info/top_level.txt
+[1.392s] writing manifest file '../build/scara_pubsub/scara_pubsub.egg-info/SOURCES.txt'
+[1.395s] reading manifest file '../build/scara_pubsub/scara_pubsub.egg-info/SOURCES.txt'
+[1.396s] writing manifest file '../build/scara_pubsub/scara_pubsub.egg-info/SOURCES.txt'
+[1.396s] running build
+[1.396s] running build_py
+[1.397s] creating /home/sid/RBE500/final-project/src/build/scara_pubsub/build
+[1.397s] creating /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib
+[1.397s] creating /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub
+[1.397s] copying scara_pubsub/__init__.py -> /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub
+[1.397s] copying scara_pubsub/scara_kinematics.py -> /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub
+[1.397s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.397s]   warnings.warn(
+[1.397s] running install
+[1.398s] running install_lib
+[1.399s] creating /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub
+[1.399s] copying /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub/__init__.py -> /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub
+[1.399s] copying /home/sid/RBE500/final-project/src/build/scara_pubsub/build/lib/scara_pubsub/scara_kinematics.py -> /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub
+[1.400s] byte-compiling /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub/__init__.py to __init__.cpython-310.pyc
+[1.400s] byte-compiling /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub/scara_kinematics.py to scara_kinematics.cpython-310.pyc
+[1.402s] running install_data
+[1.403s] creating /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index
+[1.403s] creating /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index/resource_index
+[1.403s] creating /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index/resource_index/packages
+[1.403s] copying resource/scara_pubsub -> /home/sid/RBE500/final-project/src/install/scara_pubsub/share/ament_index/resource_index/packages
+[1.404s] copying package.xml -> /home/sid/RBE500/final-project/src/install/scara_pubsub/share/scara_pubsub
+[1.404s] running install_egg_info
+[1.406s] Copying ../build/scara_pubsub/scara_pubsub.egg-info to /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages/scara_pubsub-0.0.0-py3.10.egg-info
+[1.407s] running install_scripts
+[1.441s] Installing listener script to /home/sid/RBE500/final-project/src/install/scara_pubsub/lib/scara_pubsub
+[1.442s] writing list of installed files to '/home/sid/RBE500/final-project/src/build/scara_pubsub/install.log'
+[1.490s] Invoked command in '/home/sid/RBE500/final-project/src/scara_pubsub' returned '0': AMENT_PREFIX_PATH=/home/sid/RBE500/final-project/src/install/scara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/RBE500/final-project/src/install/scara_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sid/RBE500/final-project/src/install/scara_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PS1=(rbe-500) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/sid/RBE500/final-project/src/install/scara_pubsub/lib/python3.10/site-packages:/home/sid/RBE500/final-project/src/install/scara_interfaces/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rbe-500) /usr/bin/python3 setup.py egg_info --egg-base ../build/scara_pubsub build --build-base /home/sid/RBE500/final-project/src/build/scara_pubsub/build install --prefix /home/sid/RBE500/final-project/src/install/scara_pubsub --record /home/sid/RBE500/final-project/src/build/scara_pubsub/install.log --single-version-externally-managed

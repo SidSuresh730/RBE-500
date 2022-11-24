@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from scara_interfaces/srv/InvKin.srv
+// generated code does not contain a copyright notice
+
+
+module scara_interfaces {
+  module srv {
+    struct InvKin_Request {
+      double x;
+
+      double y;
+
+      double z;
+    };
+    struct InvKin_Response {
+      double t1;
+
+      double t2;
+
+      double d3;
+    };
+  };
+};
